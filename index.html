@@ -25,7 +25,7 @@
   >
     <!-- NAVIGATION -->
     <nav
-      class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none"
+      class="navbar navbar-dark bg-dark vh-100 col-1 d-xl-none ps-3"
       style="width: 80px"
     >
       <div class="container">
@@ -78,7 +78,7 @@
 
     <!-- HEADER -->
     <header
-      class="position-relative vh-100 col-10 col-md-4"
+      class="position-relative vh-100 col-10 col-xl-4"
       style="background: url(Profil\ b&w.jpg) center/cover no-repeat"
     >
       <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
@@ -104,16 +104,121 @@
     </header>
 
     <!-- MAIN -->
-    <!-- MAIN > ABOUT -->
-    <!-- MAIN > ABOUT > CV BUTTON & CONTENT -->
+    <main class="row col-12 col-xl-8">
+      <!-- MAIN > ABOUT -->
+      <section id="About" class="ms-3">
+        <h2 class="font-monospace mt-4">about me</h2>
+        <div class="row col-12 text-success mt-3">
+          <div class="col">Exp / 50+ years</div>
+          <div class="col">Location / Milky Way</div>
+          <div class="col">Domain / Aerospace Programming</div>
+        </div>
+        <p class="text-white-50 mt-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto,
+          debitis minus reiciendis est nihil accusantium ratione ea mollitia
+          quibusdam sed doloremque illum, ipsam culpa placeat ut odit provident
+          iste. Alias.
+        </p>
 
-    <!-- MAIN > SERVICES -->
-    <!-- MAIN > SERVICES > DEVELOPMENT OFFCANVAS-->
-    <!-- MAIN > SERVICES > SEO OFFCANVAS-->
-    <!-- MAIN > SERVICES > DATA BASE OFFCANVAS-->
-    <!-- MAIN > SERVICES > DATA SECURITY OFFCANVAS-->
+        <!-- MAIN > ABOUT > CV BUTTON & CONTENT -->
+        <button
+          class="btn btn-outline-success"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#ocAbout"
+          aria-controls="ocAbout"
+        >
+          CV
+        </button>
+        <div
+          class="offcanvas offcanvas-end w-75 bg-dark"
+          tabindex="-1"
+          id="ocAbout"
+        >
+          <div class="offcanvas-header">
+            <h5 class="text-success">Resume</h5>
+            <button type="button" class="btn-close btn-close-white"></button>
+          </div>
+          <div class="offcanvas-body">
+            <h4 class="display-4 mb-3">Alex Aandonesei</h4>
+            <h4 class="display-6 mb-4 text-white-50">
+              Front-End Web Developer
+            </h4>
+            <h4 class="display-6 mb-2 font-monospace">About me</h4>
+            <p class="text-white-50">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              et minus ipsam natus nemo incidunt facilis, molestias dignissimos,
+              nostrum dolorem quas aliquam! Necessitatibus sunt magni nam
+              laboriosam nulla. Vel, qui!
+            </p>
+            <h4 class="display-6 mb-2 font-monospace">Career objective</h4>
+            <p class="text-white-50">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+              praesentium! Laborum, dolores sit deleniti harum ullam, odit eius
+              aut quos aspernatur maiores odio voluptates, fugiat est facilis.
+              Asperiores, mollitia animi.
+            </p>
+            <h4 class="display-6 mb-2 font-monospace">
+              Skills <small class="fs-6">(and still growing)</small>
+            </h4>
+            <p class="text-white-50">Troubleshooting</p>
+            <div class="progress mb-1">
+              <div
+                class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 90%"
+              ></div>
+            </div>
+            <p class="text-white-50">Critical thinking</p>
+            <div class="progress mb-1">
+              <div
+                class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 95%"
+              ></div>
+            </div>
+            <p class="text-white-50">Web design</p>
+            <div class="progress mb-1">
+              <div
+                class="progress-bar bg-success"
+                role="progressbar"
+                style="width: 100%"
+              ></div>
+            </div>
+            <p class="text-white-50">Developing</p>
+            <div class="progress mb-1">
+              <div
+                class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 80%"
+              ></div>
+            </div>
+            <p class="text-white-50">Active learning</p>
+            <div class="progress mb-1">
+              <div
+                class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                style="width: 90%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!-- CONTACT -->
+      <!-- MAIN > SERVICES -->
+      <section id="Services" class="ms-3">
+        <h2 class="font-monospace mt-4">my services</h2>
+        <!-- SERVICES > DEVELOPMENT OFFCANVAS-->
+        <!-- SERVICES > SEO OFFCANVAS-->
+        <!-- SERVICES > DATA BASE OFFCANVAS-->
+        <!-- SERVICES > DATA SECURITY OFFCANVAS-->
+      </section>
+
+      <!-- CONTACT -->
+      <section id="Contact" class="ms-3">
+        <h2 class="font-monospace mt-4">contact me</h2>
+      </section>
+    </main>
 
     <!-- FOOTER -->
 
